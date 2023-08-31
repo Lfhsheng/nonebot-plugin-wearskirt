@@ -13,7 +13,7 @@ _✨ NoneBot 赛博女装插件 ✨_
 <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/Lfhsheng/nonebot-plugin-wear-skirt.svg" alt="license">
 </a>
-<a href="https://pypi.python.org/pypi/nonebot-plugin-example">
+<a href="https://pypi.python.org/pypi/nonebot-plugin-wear-skirt">
     <img src="https://img.shields.io/pypi/v/nonebot-plugin-wear-skirt.svg" alt="pypi">
 </a>
 <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
