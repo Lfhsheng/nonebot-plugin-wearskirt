@@ -6,15 +6,15 @@
 
 <div align="center">
 
-# nonebot-plugin-wear-skirt
+# nonebot-plugin-wearskirt
 
 _✨ NoneBot 赛博女装插件 ✨_
 
 <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/Lfhsheng/nonebot-plugin-wear-skirt.svg" alt="license">
+    <img src="https://img.shields.io/github/license/Lfhsheng/nonebot-plugin-wearskirt.svg" alt="license">
 </a>
-<a href="https://pypi.python.org/pypi/nonebot-plugin-wear-skirt">
-    <img src="https://img.shields.io/pypi/v/nonebot-plugin-wear-skirt.svg" alt="pypi">
+<a href="https://pypi.python.org/pypi/nonebot-plugin-wearskirt">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-wearskirt.svg" alt="pypi">
 </a>
 <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
 
@@ -32,7 +32,7 @@ _✨ NoneBot 赛博女装插件 ✨_
 <summary>使用 nb-cli 安装</summary>
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-    nb plugin install nonebot-plugin-wear-skirt
+    nb plugin install nonebot-plugin-wearskirt
 
 </details>
 
@@ -43,27 +43,27 @@ _✨ NoneBot 赛博女装插件 ✨_
 <details>
 <summary>pip</summary>
 
-    pip install nonebot-plugin-wear-skirt
+    pip install nonebot-plugin-wearskirt
 </details>
 <details>
 <summary>pdm</summary>
 
-    pdm add nonebot-plugin-wear-skirt
+    pdm add nonebot-plugin-wearskirt
 </details>
 <details>
 <summary>poetry</summary>
 
-    poetry add nonebot-plugin-wear-skirt
+    poetry add nonebot-plugin-wearskirt
 </details>
 <details>
 <summary>conda</summary>
 
-    conda install nonebot-plugin-wear-skirt
+    conda install nonebot-plugin-wearskirt
 </details>
 
 打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
 
-    plugins = ["nonebot_plugin_wear_skirt"]
+    plugins = ["nonebot_plugin_wearskirt"]
 
 </details>
 
