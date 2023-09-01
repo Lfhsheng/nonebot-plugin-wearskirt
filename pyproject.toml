@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nonebot-plugin-wearskirt"
+name = "nonebot-plugin-wear-skirt"
 version = "0.1.0"
 description = "Nonebot 赛博女装插件"
 authors = ["泠风寒声 <me@lfhsheng.com>"]
