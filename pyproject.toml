@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-wearskirt"
-version = "0.1.1"
+version = "0.1.2"
 description = "Nonebot 赛博女装插件"
 authors = ["泠风寒声 <me@lfhsheng.com>"]
 license = "MIT"
@@ -8,6 +8,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+nonebot2 = "^2.0.1"
+datetime = "^5.2"
+nonebot-plugin-localstore = "^0.5.0"
 
 
 [build-system]
