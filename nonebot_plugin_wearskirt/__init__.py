@@ -1,6 +1,7 @@
 from nonebot.plugin import on_command
 from nonebot import require
 from nonebot.adapters import Event
+require('nonebot_plugin_localstore')
 from nonebot_plugin_localstore import get_data_file
 from nonebot.log import logger
 from nonebot.plugin import PluginMetadata
@@ -9,7 +10,6 @@ from .wear_skirt import *
 import os
 import sqlite3
 
-require('nonebot_plugin_localstore')
 path = get_data_file('wear_skirt', 'data.db')
 skirt = on_command('wear_skirt', aliases={'女装'})
 __plugin_meta__ = PluginMetadata(
