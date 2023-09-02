@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-wearskirt"
-version = "0.1.2"
+version = "0.1.1_alpha"
 description = "Nonebot 赛博女装插件"
 authors = ["泠风寒声 <me@lfhsheng.com>"]
 license = "MIT"
