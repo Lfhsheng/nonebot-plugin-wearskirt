@@ -5,7 +5,7 @@ from nonebot_plugin_localstore import get_data_file
 from nonebot.log import logger
 from nonebot.plugin import PluginMetadata
 from .config import *
-from .Wear_skirt import *
+from .wear_skirt import *
 import os
 import sqlite3
 
@@ -38,5 +38,5 @@ async def skirt_function(event: Event):
     if not os.path.exists(path):
         logger.info(config.DATA_BASE_NOT_FOUND)
         init()
-    logger.info(user_id + ' 正在女装!')
+    logger.info('{user_id} 正在女装!'.format(user_id=user_id))
     await skirt.finish(wear_skirt(int(user_id), path))
