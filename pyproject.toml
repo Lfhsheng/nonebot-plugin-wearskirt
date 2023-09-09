@@ -12,6 +12,9 @@ nonebot2 = "^2.0.1"
 nonebot-plugin-localstore = "^0.5.0"
 
 
+
+[tool.nonebot]
+adapters = [{name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11"}]
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
