@@ -21,5 +21,5 @@ class Config(BaseModel):
     NOT_CONTINUOUS_WEAR_SKIRT: str = '未连续女装, 你已女装 {wear_skirt_day} 天, 女装需要坚持.'
     LOG_WEARING_SKIRT_BOARD: str = '{user_name} 正在查看女装龙虎榜中…'
     NOBODY_WEAR_SKIRT: str = '目前无人女装!'
-    WEAR_SKIRT_BOARD_INFO: str = '{user_name} 女装了 {day} 天.\n'
+    WEAR_SKIRT_BOARD_INFO: str = '{user_name} ({user_id}) 女装了 {day} 天.\n'
     interrupt_wear_skirt_times: bool = False
