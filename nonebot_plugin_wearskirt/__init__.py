@@ -15,7 +15,6 @@ from .wear_skirt import Skirt
 from os.path import exists
 import sqlite3
 
-skirt = Skirt()
 plugin_config = Config.parse_obj(get_driver().config)
 path = get_data_file('wear_skirt', 'data.db')
 wear_skirt_command = on_command('wear_skirt', aliases={'女装'}, rule=is_type(GroupMessageEvent))
@@ -42,6 +41,7 @@ def init():
     base.commit()
     base.close()
 
+skirt = Skirt()
 
 @wear_skirt_command.handle()
 async def wear_skirt_function(event: Event):
@@ -52,7 +52,7 @@ async def wear_skirt_function(event: Event):
     if not exists(path):
         logger.info(plugin_config.DATA_BASE_NOT_FOUND)
         init()
-    logger.info('可爱的 {nickname} ({user_id}) 正在女装!'.format(nickname=nickname, user_id=user_id))
+    logger.info(f'可爱的 {nickname} ({user_id}) 正在女装!')
     await wear_skirt_command.finish(await skirt.wear_skirt(int(user_id)), reply_message=True)
 
 @wear_skirt_board_command.handle()
