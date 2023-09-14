@@ -57,4 +57,7 @@ async def wear_skirt_function(event: Event):
 
 @wear_skirt_board_command.handle()
 async def wear_skirt_board_function(event: GroupMessageEvent):
+    if not exists(path):
+        logger.info(plugin_config.DATA_BASE_NOT_FOUND)
+        init()
     await wear_skirt_command.finish(await skirt.wear_skirt_board(event.group_id), reply_message=True)
