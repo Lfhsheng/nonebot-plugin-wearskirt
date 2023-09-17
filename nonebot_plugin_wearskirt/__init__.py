@@ -23,10 +23,8 @@ __plugin_meta__ = PluginMetadata(
     name='女装 !',
     description='Nonebot 赛博女装插件',
     usage=(
-        '''
-        使用 /女装 或 /wear_skirt 进行女装
-        使用 /女装板 或 /wear_skirt_board 查看女装信息
-        '''
+        '''[女装] 或 [wear_skirt] 进行女装
+        [女装板] 或 [wear_skirt_board] 查看女装信息'''
     ),
     type='application',
     homepage='https://github.com/Lfhsheng/nonebot-plugin-wearskirt',
