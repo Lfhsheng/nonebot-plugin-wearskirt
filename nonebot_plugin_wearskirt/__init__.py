@@ -1,4 +1,3 @@
-from nonebot.plugin import on_fullmatch
 from nonebot.plugin import on_command
 from nonebot import require
 from nonebot.adapters import Event
